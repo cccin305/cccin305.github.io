@@ -1,0 +1,87 @@
+/* Style Sheet for panama.html */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  max-width: 960px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+}
+
+h1 {
+  border: 1px groove rgb(112, 128, 114);
+  min-width: auto;
+  background-color: rgb(211, 211, 211);
+  text-align: center;
+}
+
+h2 {
+  border: 1px groove rgb(112, 128, 114);
+  min-width: auto;
+  background-color: rgb(211, 211, 211);
+}
+
+figure img {
+  display: block;
+  border: 1px solid rgb(112, 128, 114);
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+figcaption {
+  margin-top: 10px;
+  text-align: center;
+}
+
+img {
+  border: 1px solid #ccc;
+  box-shadow: 10px 10px 8px #aaa;
+}
+
+nav ul{
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  padding: 10px;
+  background-color: #ddd;
+  color: rgb(0, 0, 128);
+}
+
+nav a:visited {
+  color: rgb(139, 0, 0);
+}
+
+nav a:hover {
+  background-color: #aaa;
+}
+
+a:visited {
+  color: rgb(139, 0, 0);
+}
+
+a:hover {
+  color: rgb(255, 215, 0);
+  background-color: rgb(169, 169, 169);
+}
+
+footer {
+  font-size: 12px;
+}
